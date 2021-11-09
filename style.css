@@ -1,0 +1,51 @@
+  .heading_main
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-size: 30px;
+  }
+  .Heading1
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+    float: none;
+    padding : 10px;
+  }
+  .Heading2
+  {
+    font-size: 18px ;
+    background-color: cornsilk;
+  }
+  .para-tags
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;  
+  }
+
+  #paras1, #paras2{
+    animation-name: movement;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+  }
+
+.copy_right_footer{
+  font-size: 15px;
+  background-color: lightcoral;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  width : 100%
+}
+
+@keyframes movement{
+ from{margin-left:500px;}
+ to{margin-left:0px;}
+
+}
+ 
+canvas{
+  border : 10px solid black;
+}
